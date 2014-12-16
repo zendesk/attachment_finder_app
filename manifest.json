@@ -1,0 +1,29 @@
+{
+  "name": "Attachment Finder",
+  "author": {
+    "name": "Adam Lobb",
+    "email": "alobb@zendesk.com",
+    "url": ""
+  },
+  "defaultLocale": "en",
+  "version": "1.0",
+  "noTemplate":true,
+  "private": true,
+  "location": "ticket_sidebar",
+  "version": "1.0",
+  "frameworkVersion": "1.0",
+
+  "parameters": [
+    {
+      "name" : "Current Attachments Tag",
+      "type" : "text",
+      "required" : true
+    },
+
+    {
+      "name" : "Previous Attachments Tag",
+      "type" : "text",
+      "required" : true
+    }
+  ]
+}
